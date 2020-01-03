@@ -23,7 +23,7 @@ app.use(express.json()); // former body-parser now added to express! a MUST have
 app.use(cors())
 
 app.get('/', (req, res) => {
-    res.send(database.users);
+    res.send('it is working!');
 })
 
 // using dependency injection for endpoints
